@@ -1,10 +1,16 @@
-#Se trata de tomar una lista de dos valores desordenados y producir una salida en orden creciente 
 
-n = [65, 23]
-if n[0] > n[1]:
-    a = n[0]
-    n[0] = n[1]
-    n[1] = a 
-print(n)
 
+n = [252, 14, 58] 
+
+for i in range(2):
+    if n[i] > n[i+1]:
+        n[i] = n[i+1] = n[i+1], n[i]
     
+
+print(n)
+         
+
+
+
+
+
