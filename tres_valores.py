@@ -9,7 +9,7 @@
 
 n = [252, 14, 58] 
 
-#Bucle para tomar datos del teclado y guardarlos en la variable n de tipo lista
+#Bucle para tomar datos del teclado y guardarlos en la variable n de tipo listas
 def swap(j):
   a = n[j] 
   n[j]= n[j + 1]
@@ -17,9 +17,9 @@ def swap(j):
 
 
 
-for i  in range(len(n)-2):    
+for i  in range(len(n)-2):   #Aquí hacemos el repaso a la lista dos veces  
     for j in range(len(n)-1):
-        if n[j] > n[j + 1]:
+        if n[j] > n[j + 1]:  
             swap(j)
 
 print(n)
